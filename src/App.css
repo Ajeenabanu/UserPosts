@@ -1,0 +1,42 @@
+body{
+padding: 2%;
+background-color: rgb(153, 0, 115);}
+
+#root {
+  margin: 0 auto;
+  padding: 2px;
+  text-align: center;
+  width: 90%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  margin-bottom: 2%;
+  background-color: rgba(0,0,0,.5);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.title{
+  font-weight: bolder;
+  font-size:2rem;
+}
+.details{
+  font-size:1.5rem;
+}
+img{
+  width: 3%;
+}
