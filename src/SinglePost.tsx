@@ -17,7 +17,6 @@ function SinglePost() {
 
   const fetchData = async () => {
     let id = SearchParams.get("id");
-
     const res = await axios.get(
       `https://jsonplaceholder.typicode.com/posts/${id}`
     );
